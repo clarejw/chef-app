@@ -1,0 +1,11 @@
+Qs:
+* Difference between ts, tsx, js, and jsx
+* What is reportWebVitals?
+* Difference between main and homepage in package.json? When to use which?
+* When to use index.html and when to use index.js
+
+TODOs:
+* Set up github repo
+* Set up Auth0 
+* Update Auth0Provider.js with correct domain, clientID, etc.
+* Determine main and/or homepage for package.json

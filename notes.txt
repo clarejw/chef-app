@@ -1,0 +1,5 @@
+Run in frontend/:
+* npm init -y --> This sets the defaults for an init
+* npm install --save typescript @types/node @types/react @types/react-dom @types/jest 
+    * --save --> saves the dependencies into the package.json file
+    * the rest of the command installs typescript and type definitions
