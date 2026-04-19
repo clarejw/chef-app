@@ -5,7 +5,7 @@ interface Recipe {
   ingredients: string[];
   steps: string[];
   time: string;
-//   additional_ingredients: Record<string, string>;
+  additional_ingredients: Record<string, string>;
 }
 
 function App() {
@@ -86,12 +86,12 @@ function App() {
             ))}
           </ol>
           
-          {/* <h3>Possible Additions:</h3>
+          <h3>Possible Additions:</h3>
           <ul>
             {Object.entries(recipe.additional_ingredients).map(([ingredient, price]: [string, string]) => (
-              <li key={ingredient}>{ingredient} → {price}</li>
+              <li key={ingredient}>{ingredient} → ${price}</li>
             ))}
-          </ul> */}
+          </ul>
         </div>
       )}
     </div>
