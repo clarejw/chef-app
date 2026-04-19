@@ -1,0 +1,4 @@
+django
+python-dotenv
+groq
+django-cors-headers
